@@ -1,59 +1,63 @@
-# ThreadsFe
+# Threads App (Frontend)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
+## 🧾 General Info
 
-## Development server
+This is a web application built with **Angular** that demonstrates the development of a **Threads** app.
 
-To start a local development server, run:
+---
+
+## ⚙️ Technologies Used
+
+- **Angular** v19
+- **Angular Material**
+- **Node.js** v22
+- **RxJS** 
+- **WebSockets** 
+
+---
+
+## 🚀 Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/bathish03/Threads-App-Frontend.git
+cd Threads-App-Frontend
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the Angular App
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Then navigate to:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```
+http://localhost:4200
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+The app will automatically reload if you make any source changes.
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+## ✨ Features
 
-To build the project run:
+- ✅ User registration and login with JSON Server  
+- ✅ Create, view, and delete threads
+- ✅ Fully integrated with the NestJS backend
+- ✅ Responsive UI with Tailwind styling
+- ✅ Reactive forms and form validation
+- ✅ Integrated with Prisma database
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 📌 Notes
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Make sure to set up your database and configure .env for the proper environment variables.
